@@ -1,0 +1,17 @@
+name: CARS(autoscout)
+
+Column		        Type			    Attributes			        Index	
+
+id		            BIGINT UNSIGNED		AUTO_INCREMENT, NOT NULL	PRIMARY KEY
+Make		        VARCHAR(10)		    NOT NULL
+Model		        VARCHAR(155)		NOT NULL                    INDEX
+First Registration	YEAR			    NOT NULL                    INDEX
+Body Color	        VARCHAR(20)		    NOT NULL
+Paint Type		    VARCHAR(20)			NULL
+Body		        VARCHAR(10)		    NOT NULL        		    INDEX
+N_Doors		        SMALLINT        	NOT NULL
+N_Seats	            SMALLINT 	        NOT NULL			        
+Model Code          VARCHAR(8)	        NOTNULL, UNIQUE
+Emission Class      VARCHAR(5)          NULL                        INDEX
+Gearing Type        VARCHAR(10)         NOT NULL                    INDEX
+KM                  MEDIUMINT           NOT NULL                    
