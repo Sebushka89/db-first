@@ -15,4 +15,4 @@ Model Code          VARCHAR(8)	        NOTNULL, UNIQUE
 Emission Class      VARCHAR(5)          NULL    	                INDEX
 Gearing Type        VARCHAR(10)         NOT NULL                    INDEX
 KM                  MEDIUMINT           NOT NULL 
-PRICE           	DOUBLE(9,2)         NOT NULL               
+PRICE           	DECIMAL             NOT NULL                
